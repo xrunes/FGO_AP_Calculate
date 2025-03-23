@@ -1,0 +1,19 @@
+#tips {
+    padding: 8px 16px;
+    border-left: 4px solid rgb(26, 127, 55);
+    display: none;
+}
+
+#svg {
+    color: rgb(26, 127, 55);
+}
+
+@font-face {
+    font-family: Awan;
+    src: url(./筑紫A丸by宁静之雨.woff2);
+    font-display: swap;
+}
+
+body {
+    font-family: Awan, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

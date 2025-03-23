@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGO体力计算器</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="icon" href="apple.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <p id="local_time"></p>
+
+        <p>请输入您现在剩余体力：</p>
+
+        <input type="text" id="AP" type="number" min="0" max="146" placeholder="体力值需在0-146之间">
+        <button onclick="save()">计算！</button>
+
+        <p id="p2"></p>
+
+        <p id="p3"></p>
+    </div>
+
+        <div id="tips">
+        <p id="svg"><img src="./tips.svg"> Tips</p>
+        <p>请注意：本站所计算恢复时间为最大所需时间，即每5分钟恢复1点体力，但有可能当您输入时体力并不是刚好消耗完开始计时的状态。</p>
+        <p>例如：当您剩余145点体力且已恢复4分钟时，此时还需1分钟即可恢复满，但本站是按照5分钟来计算。</p>
+        </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
